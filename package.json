@@ -1,0 +1,24 @@
+{
+  "name": "eduacesso-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API Node.js da plataforma EDUACESSO pronta para Hostinger",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "node --watch src/main.js",
+    "start": "node src/main.js",
+    "lint": "node -e \"console.log('Lint não configurado nesta versão de deploy')\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "pocketbase": "^0.26.8"
+  }
+}
